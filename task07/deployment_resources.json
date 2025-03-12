@@ -35,9 +35,9 @@
     "autoscaling": [],
     "tags": {}
   },
-  "GraphQL_API": {
+  "AppSyncToDynamoDBRole": {
     "resource_type": "iam_role",
-    "principal_service": "lambda.amazonaws.com",
+    "principal_service": "appsync.amazonaws.com",
     "predefined_policies": [],
     "custom_policies": [],
     "allowed_accounts": [],
